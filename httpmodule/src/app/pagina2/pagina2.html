@@ -1,0 +1,5 @@
+<div *ngFor="let item of data">
+  <h4>{{ item.activityID }}</h4>
+  <p>Start: {{ item.startTime }}</p>
+  <p>Speed: {{ item?.cmeAnalyses?.[0]?.speed }}</p>
+</div>
